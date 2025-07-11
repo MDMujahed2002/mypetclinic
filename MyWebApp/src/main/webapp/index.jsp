@@ -33,7 +33,7 @@
 </head>
 <body>
   <h1>sandeep love Meghana</h1>
-  <p class="heart">💍💖✨</p>
+  
   <h2>Wedding Invitation</h2>
   <p>With great joy in our hearts, we invite you to celebrate the union of</p>
   <p><strong>Sandeep & Meghana</strong></p>
@@ -43,7 +43,7 @@
   <p><strong>Venue:</strong> Grand Palace Convention Hall, Hyderabad</p>
   <p><strong>Time:</strong> 6:30 PM onwards</p>
   <p>Join us to witness the beginning of forever for Sandeep and Meghana. Your presence will make this celebration even more memorable and special.</p>
-  <p class="heart">💑🎉❤️</p>
+ 
   <p>We look forward to seeing you there!</p>
 </body>
 </html>
