@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Sandeep ❤️ Meghana Wedding Invitation</title>
+  <title>Sandeep loves Meghana Wedding Invitation</title>
   <style>
     body {
       font-family: 'Georgia', serif;
@@ -32,7 +32,7 @@
   </style>
 </head>
 <body>
-  <h1>Sandeep ❤️ Meghana</h1>
+  <h1>kashif also love Meghana</h1>
   <p class="heart">💍💖✨</p>
   <h2>Wedding Invitation</h2>
   <p>With great joy in our hearts, we invite you to celebrate the union of</p>
