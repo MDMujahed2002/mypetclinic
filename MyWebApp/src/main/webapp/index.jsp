@@ -32,7 +32,7 @@
   </style>
 </head>
 <body>
-  <h1>kashif also love Meghana</h1>
+  <h1>sandeep love Meghana</h1>
   <p class="heart">💍💖✨</p>
   <h2>Wedding Invitation</h2>
   <p>With great joy in our hearts, we invite you to celebrate the union of</p>
