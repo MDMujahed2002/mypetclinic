@@ -1,4 +1,4 @@
-name: CI/CD workflow for Maven Build and Tomcat Deploy to ec2
+name: CI/CD workflow for Maven Build and Tomcat Deploy
 
 on:
   push:
@@ -21,12 +21,17 @@ jobs:
           java-version: '11'
 
       - name: Build with Maven
-        run: mvn clean install -f MyWebApp/pom.xml
+        run: mvn clean install
+        working-directory: MyWebApp
+
+      - name: List target files (check WAR file)
+        run: ls -l target
+        working-directory: MyWebApp
 
       - name: Deploy to Tomcat
         run: |
-          WAR_FILE=MyWebApp/target/myapp.war
+          WAR_FILE=target/MyWebApp.war
           curl -v --upload-file "$WAR_FILE" \
             --user "${{ secrets.TOMCAT_USERNAME }}:${{ secrets.TOMCAT_PASSWORD }}" \
             "${{ secrets.TOMCAT_HOST }}/manager/text/deploy?path=/myapp&update=true"
-            
+        working-directory: MyWebApp
